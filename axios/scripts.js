@@ -1,8 +1,7 @@
-///axios and fetch
-/* fetch api  is already installed in our browsers,
- we don't have to install anything or grab another script file
-
-third party libraries
+///fetch and axios
+/* -fetch api  is already installed in our browsers,
+   -we don't have to install anything or grab another script file
+   -learn about some third party libraries
 */
 /*// vvv "happy path" example vvv
 fetch('https://acme-users-api-rev.herokuapp.com/api/users')
@@ -11,7 +10,7 @@ fetch('https://acme-users-api-rev.herokuapp.com/api/users')
 */ // ^^^console result: get count and first 50 users^^^
 /*--------------------------------------------------------------- */
 
-//what if there was an error? the fetch library thinks that this is successful
+//what if there was an error? such as a bad request (adding /x) to the end ofthe fetch library thinks that this is successful
 
 // fetch('https://acme-users-api-rev.herokuapp.com/api/users/x')
 //   .then( response => response.json())
